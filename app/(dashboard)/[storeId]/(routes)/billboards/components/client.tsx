@@ -25,7 +25,9 @@ const BillboardClient: FC<BillboardClientProps> = ({ data }) => {
             description="Manage billboards for your store"
           />
           <Button
-            onClick={() => route.push(`/${params.storeId}/billboards/new`)}
+            onClick={() => {
+              route.push(`/${params.storeId}/billboards/new`);
+            }}
           >
             <Plus className="mr-2 h-4 w-4" />
             Add New

@@ -2,7 +2,8 @@
 import React, { FC, useState } from "react";
 import axios from "axios";
 import { useParams, useRouter } from "next/navigation";
-import { BillboardColumn } from "./columns";
+// import { BillboardColumn } from "./columns";
+import { BillboardColumn } from "../../billboards/components/columns";
 import {
   DropdownMenu,
   DropdownMenuContent,
